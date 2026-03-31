@@ -42,8 +42,14 @@ echo "GEMINI_API_KEY=your_gemini_api_key" > .env
 echo "ANTHROPIC_API_KEY=your_anthropic_api_key" > .env
 ```
 
-To generate
+To generate examples:
 
 ```
-uv run --env-file .env -- python generate.py
+uv sync
+uv run --env-file .env -- python generate_data.py
+
+OR
+
+uv sync
+uv run generate_data.py
 ```
