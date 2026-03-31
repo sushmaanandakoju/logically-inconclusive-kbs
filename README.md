@@ -1,7 +1,8 @@
 # Logically Inconclusive KBs
 
 ## PROMPT
-1.  Select a polysemy noun. Each one of the polysemy noun keywords in - bat, head, nail, paper- that have two different meanings in the noun forms and with real world references. Example: bat. Add this to json key: "KB".
+
+1. Select a polysemy noun. Each one of the polysemy noun keywords in - bat, head, nail, paper- that have two different meanings in the noun forms and with real world references. Example: bat. Add this to json key: "KB".
 
 2. Select one fact each for each one of the two meanings for the each one of the keywords. Example: "Bat is a mammal. Bat is used in baseball." where this information is valid in real world. Add this to json key: "KB".
 
@@ -34,6 +35,7 @@
 16. Place all generated results in a json array format.
 """
 
+### Update API keys
 
 ```
 echo "GEMINI_API_KEY=your_gemini_api_key" > .env
