@@ -2,6 +2,11 @@
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
+Note: This work originally developed by me in January 2025 and underwent a metamorphosis through five stages: (1) independent research expanded during CS 830 (Spring 2025, UNH) with two drafts reviewed by Prof. Wheeler Ruml; (2) submitted to the workshop on "Application of LLM Explainability to Reasoning and Planning" at COLM (June 2025, no feedback received); (3) fully revised following significant changes in LLM behavior across newer model versions; (4) resubmitted to the "Logical and Symbolic Reasoning in Language Models" Bridge Program at AAAI 2026 (Fall 2025, feedback received but not yet incorporated); (5) the current version employs a different method, an updated toy dataset, and reflects some of the recent developments in logical reasoning under abstention. Scripts to generate the example dataset: <a href="https://tinyurl.com/inconclusive-data-repo">https://tinyurl.com/inconclusive-data-repo</a> and <a href="https://tinyurl.com/inconclusive-sub2">https://tinyurl.com/inconclusive-sub2</a>. Preprint: <a href="https://beta.dpid.org/1076">https://beta.dpid.org/1076</a>.
+
+
+
+
 ## PROMPT
 
 1. Select a polysemy noun. Each one of the polysemy noun keywords in - bat, head, nail, paper- that have two different meanings in the noun forms and with real world references. Example: bat. Add this to json key: "KB".
