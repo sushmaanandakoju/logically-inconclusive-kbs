@@ -1,0 +1,114 @@
+[
+    {
+        "key": "bat",
+        "kb": "Bat is a mammal. Bat is used in baseball. Bats have wings. Bats have a barrel. Wings are not barrels. Barrels are not wings. Bats can fly. There is a brown bat. Brown bat flew.",
+        "inconclusive": {
+            "query": "Brown bat is a mammal.",
+            "mcq": "For the statement: Brown bat is a mammal, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if brown bat is a mammal and Inconclusive i.e. undecidable if brown bat could have accidentally been thrown by a baseball player.",
+            "reasoning": "The statement is inconclusive because 'brown bat' could refer to either a brown-colored mammal that flies, or a brown-colored baseball bat that was thrown. The fact that 'brown bat flew' doesn't definitively distinguish between the two meanings since a baseball bat can also 'fly' through the air when thrown."
+        },
+        "conclusive": {
+            "query": "Brown bat has wings.",
+            "mcq": "For the statement: Brown bat has wings, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if brown bat is the mammal, False if brown bat is baseball equipment.",
+            "reasoning": "If the brown bat has wings, it must be the mammal, since barrels are not wings and baseball bats have barrels, not wings. Therefore, the statement is conclusively True."
+        }
+    },
+    {
+        "key": "head",
+        "kb": "Head is a body part. Head is the leader of organization. Heads contain a brain. Heads have authority. Brains are not authority. Authority is not a brain. Heads can think. There is a white head. White head made decisions.",
+        "inconclusive": {
+            "query": "White head is a body part.",
+            "mcq": "For the statement: White head is a body part, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if white head is anatomical and Inconclusive i.e. undecidable if white head could be a leader with white hair.",
+            "reasoning": "The statement is inconclusive because 'white head' could refer to either a body part (perhaps with white hair), or the leader of an organization who happens to be called 'white head'. The fact that 'white head made decisions' doesn't definitively distinguish between the two meanings since both a person's head (brain) and a leader make decisions."
+        },
+        "conclusive": {
+            "query": "White head contains a brain.",
+            "mcq": "For the statement: White head contains a brain, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if white head is the body part, False if white head is an organizational leader.",
+            "reasoning": "If the white head contains a brain, it must be the anatomical body part, since authority is not a brain and organizational leaders as abstract roles don't literally contain brains. Therefore, the statement is conclusively True for the anatomical meaning."
+        }
+    },
+    {
+        "key": "nail",
+        "kb": "Nail is part of a finger. Nail is used in construction. Nails contain keratin. Nails have a pointed tip. Keratin is not a pointed tip. Pointed tips are not keratin. Nails can grow. There is a pink nail. Pink nail did not fasten the object.",
+        "inconclusive": {
+            "query": "Pink nail is part of a finger.",
+            "mcq": "For the statement: Pink nail is part of a finger, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if pink nail is the body part and Inconclusive i.e. undecidable if pink nail could be a construction nail painted pink.",
+            "reasoning": "The statement is inconclusive because 'pink nail' could refer to either a fingernail (which is naturally pinkish), or a construction nail painted pink. The fact that 'pink nail did not fasten the object' doesn't definitively distinguish between the two meanings since a fingernail also doesn't typically fasten objects, and a construction nail might fail to fasten something."
+        },
+        "conclusive": {
+            "query": "Pink nail contains keratin.",
+            "mcq": "For the statement: Pink nail contains keratin, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if pink nail is the fingernail, False if pink nail is construction material.",
+            "reasoning": "If the pink nail contains keratin, it must be the fingernail, since pointed tips are not keratin and construction nails are made of metal with pointed tips, not keratin. Therefore, the statement is conclusively True for the fingernail meaning."
+        }
+    },
+    {
+        "key": "paper",
+        "kb": "Paper is a writing material. Paper is an academic document. Papers contain cellulose fibers. Papers have research findings. Cellulose fibers are not research findings. Research findings are not cellulose fibers. Papers can be published. There is a yellow paper. Yellow paper was reviewed.",
+        "inconclusive": {
+            "query": "Yellow paper is a writing material.",
+            "mcq": "For the statement: Yellow paper is a writing material, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if yellow paper is the physical material and Inconclusive i.e. undecidable if yellow paper could be an academic document printed on yellow material.",
+            "reasoning": "The statement is inconclusive because 'yellow paper' could refer to either yellow-colored writing material (physical paper), or an academic document that happens to be printed on yellow paper. The fact that 'yellow paper was reviewed' doesn't definitively distinguish between the two meanings since physical paper can be reviewed for quality and academic papers are reviewed for content."
+        },
+        "conclusive": {
+            "query": "Yellow paper contains cellulose fibers.",
+            "mcq": "For the statement: Yellow paper contains cellulose fibers, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if yellow paper is the writing material, False if yellow paper is purely the academic content.",
+            "reasoning": "If the yellow paper contains cellulose fibers, it must be the physical writing material, since research findings are not cellulose fibers and academic documents as abstract intellectual content don't contain cellulose. Therefore, the statement is conclusively True for the physical material meaning."
+        }
+    },
+    {
+        "key": "bank",
+        "kb": "Bank is a financial institution. Bank is the edge of a river. Banks have accounts. Banks have soil deposits. Accounts are not soil deposits. Soil deposits are not accounts. Banks can hold money. There is a green bank. Green bank eroded.",
+        "inconclusive": {
+            "query": "Green bank is a financial institution.",
+            "mcq": "For the statement: Green bank is a financial institution, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if green bank is an eco-friendly financial institution and Inconclusive i.e. undecidable if green bank could be a grass-covered riverbank.",
+            "reasoning": "The statement is inconclusive because 'green bank' could refer to either an environmentally-focused financial institution (green banking), or a riverbank covered with green vegetation. The fact that 'green bank eroded' doesn't definitively distinguish between the two meanings since financial institutions can erode in value/reputation and riverbanks physically erode."
+        },
+        "conclusive": {
+            "query": "Green bank has accounts.",
+            "mcq": "For the statement: Green bank has accounts, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if green bank is the financial institution, False if green bank is the riverbank.",
+            "reasoning": "If the green bank has accounts, it must be the financial institution, since soil deposits are not accounts and riverbanks don't have financial accounts. Therefore, the statement is conclusively True for the financial institution meaning."
+        }
+    },
+    {
+        "key": "mouse",
+        "kb": "Mouse is a small rodent. Mouse is a computer device. Mice have whiskers. Mice have buttons. Whiskers are not buttons. Buttons are not whiskers. Mice can click. There is a black mouse. Black mouse moved quickly.",
+        "inconclusive": {
+            "query": "Black mouse is a small rodent.",
+            "mcq": "For the statement: Black mouse is a small rodent, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if black mouse is the animal and Inconclusive i.e. undecidable if black mouse could be a black-colored computer mouse.",
+            "reasoning": "The statement is inconclusive because 'black mouse' could refer to either a black-colored rodent, or a black-colored computer mouse. The fact that 'black mouse moved quickly' doesn't definitively distinguish between the two meanings since both rodents scurry quickly and computer mice move quickly when used."
+        },
+        "conclusive": {
+            "query": "Black mouse has whiskers.",
+            "mcq": "For the statement: Black mouse has whiskers, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if black mouse is the rodent, False if black mouse is the computer device.",
+            "reasoning": "If the black mouse has whiskers, it must be the rodent, since buttons are not whiskers and computer mice have buttons, not whiskers. Therefore, the statement is conclusively True for the rodent meaning."
+        }
+    },
+    {
+        "key": "pitcher",
+        "kb": "Pitcher is a baseball player. Pitcher is a container for liquids. Pitchers have throwing arms. Pitchers have handles. Throwing arms are not handles. Handles are not throwing arms. Pitchers can throw. There is a blue pitcher. Blue pitcher was on the mound.",
+        "inconclusive": {
+            "query": "Blue pitcher is a baseball player.",
+            "mcq": "For the statement: Blue pitcher is a baseball player, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if blue pitcher is the athlete and Inconclusive i.e. undecidable if blue pitcher could be a decorative container placed on a mound of earth.",
+            "reasoning": "The statement is inconclusive because 'blue pitcher' could refer to either a baseball player wearing blue, or a blue-colored liquid container. The fact that 'blue pitcher was on the mound' doesn't definitively distinguish between the two meanings since baseball pitchers stand on the pitcher's mound and a decorative pitcher could be placed on a mound or elevated surface."
+        },
+        "conclusive": {
+            "query": "Blue pitcher has a throwing arm.",
+            "mcq": "For the statement: Blue pitcher has a throwing arm, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if blue pitcher is the baseball player, False if blue pitcher is the container.",
+            "reasoning": "If the blue pitcher has a throwing arm, it must be the baseball player, since handles are not throwing arms and liquid containers have handles, not throwing arms. Therefore, the statement is conclusively True for the baseball player meaning."
+        }
+    },
+    {
+        "key": "wave",
+        "kb": "Wave is a water movement. Wave is a hand gesture. Waves contain water molecules. Waves have friendly intent. Water molecules are not friendly intent. Friendly intent is not water molecules. Waves can crash. There is a red wave. Red wave approached.",
+        "inconclusive": {
+            "query": "Red wave is a water movement.",
+            "mcq": "For the statement: Red wave is a water movement, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if red wave is an ocean phenomenon and Inconclusive i.e. undecidable if red wave could be a hand gesture with red gloves or red tide metaphor.",
+            "reasoning": "The statement is inconclusive because 'red wave' could refer to either a red-colored water movement (like red tide), or a metaphorical hand gesture (political wave), or someone waving while wearing red. The fact that 'red wave approached' doesn't definitively distinguish between the two meanings since both ocean waves approach the shore and people making gestures can approach others."
+        },
+        "conclusive": {
+            "query": "Red wave contains water molecules.",
+            "mcq": "For the statement: Red wave contains water molecules, select the Correct Answer from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if red wave is the water movement, False if red wave is the hand gesture.",
+            "reasoning": "If the red wave contains water molecules, it must be the water movement, since friendly intent is not water molecules and hand gestures have friendly intent, not water molecules. Therefore, the statement is conclusively True for the water movement meaning."
+        }
+    }
+]

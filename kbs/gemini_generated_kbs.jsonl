@@ -1,0 +1,110 @@
+[
+    {
+        "key": "Bat",
+        "KB": "Bat is a mammal. Bat is used in baseball. Bat flies with wings. Bats have a barrel. Wings are not barrels. Barrels are not wings. Bats can fly. There is a brown bat. Brown bat flew.",
+        "inconclusive": [
+            {
+                "query": "Is the statement 'Brown bat is a mammal' true or false or inconclusive?",
+                "mcq": "For the statement: Brown bat is a mammal, select the Correct Ans from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if brown bat is a mammal and Inconclusive i.e. undecidable if brown bat could have accidentally thrown by a baseball player.",
+                "Reasoning": "The term 'brown bat' is ambiguous. It could refer to a brown-colored flying mammal, which is a mammal. However, it could also refer to a baseball bat that is brown, which is not a mammal. The action 'flew' could apply to the mammal or a baseball bat that was thrown, thus it's inconclusive."
+            }
+        ],
+        "conclusive": [
+            {
+                "query": "Is the statement 'A brown bat (the mammal) is a mammal' true or false or inconclusive?",
+                "mcq": "For the statement: A brown bat (the mammal) is a mammal, select the Correct Ans from following choices: 1. True, 2. False, 3. Inconclusive.",
+                "Reasoning": "The statement explicitly specifies 'brown bat (the mammal)', removing ambiguity. A mammal is by definition a mammal."
+            }
+        ]
+    },
+    {
+        "key": "Head",
+        "KB": "Head is a part of the human body. Head is the leader of an organization. Head contains a skull. A head has subordinates. Skulls are not subordinates. Subordinates are not skulls. Heads can contain a brain. There is a red head. Red head spoke at the meeting.",
+        "inconclusive": [
+            {
+                "query": "Is the statement 'Red head contains a skull' true or false or inconclusive?",
+                "mcq": "For the statement: Red head contains a skull, select the Correct Ans from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if red head refers to a human head and Inconclusive i.e. undecidable if red head refers to the leader of an organization.",
+                "Reasoning": "The term 'red head' is ambiguous. It could refer to a person with red hair (whose head contains a skull), or it could refer to the leader of an organization (who doesn't literally 'contain a skull' in the same sense as a body part). The action 'spoke at the meeting' could apply to either, making it inconclusive."
+            }
+        ],
+        "conclusive": [
+            {
+                "query": "Is the statement 'A red head (referring to a person's head) contains a skull' true or false or inconclusive?",
+                "mcq": "For the statement: A red head (referring to a person's head) contains a skull, select the Correct Ans from following choices: 1. True, 2. False, 3. Inconclusive.",
+                "Reasoning": "The statement explicitly clarifies 'red head (referring to a person's head)', which definitively contains a skull."
+            }
+        ]
+    },
+    {
+        "key": "Nail",
+        "KB": "Nail is a hard covering at the end of a finger or toe. Nail is a small metal spike used to fasten objects. Nails have a cuticle. Nails have a pointed tip. Cuticles are not pointed tips. Pointed tips are not cuticles. Nails can have a cuticle. There is a pink nail. Pink nail was painted yesterday.",
+        "inconclusive": [
+            {
+                "query": "Is the statement 'Pink nail has a cuticle' true or false or inconclusive?",
+                "mcq": "For the statement: Pink nail has a cuticle, select the Correct Ans from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if pink nail refers to a fingernail and Inconclusive i.e. undecidable if pink nail refers to a metal fastener.",
+                "Reasoning": "The term 'pink nail' is ambiguous. It could refer to a pink-colored fingernail, which has a cuticle. However, it could also refer to a pink-colored metal nail, which does not have a cuticle. The action 'was painted yesterday' could apply to either (fingernail polish or painted metal nail), making it inconclusive."
+            }
+        ],
+        "conclusive": [
+            {
+                "query": "Is the statement 'A pink nail (on a finger) has a cuticle' true or false or inconclusive?",
+                "mcq": "For the statement: A pink nail (on a finger) has a cuticle, select the Correct Ans from following choices: 1. True, 2. False, 3. Inconclusive.",
+                "Reasoning": "The statement explicitly specifies 'pink nail (on a finger)', which refers to a fingernail and definitively has a cuticle."
+            }
+        ]
+    },
+    {
+        "key": "Paper",
+        "KB": "Paper is a material used for writing or printing. Paper is an academic essay or report. Paper has a fibrous texture. Papers contain arguments. Fibrous textures are not arguments. Arguments are not fibrous textures. Paper can have a fibrous texture. There is a white paper. White paper was submitted for review.",
+        "inconclusive": [
+            {
+                "query": "Is the statement 'White paper contains arguments' true or false or inconclusive?",
+                "mcq": "For the statement: White paper contains arguments, select the Correct Ans from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if white paper refers to an academic report and Inconclusive i.e. undecidable if white paper refers to a blank sheet of paper.",
+                "Reasoning": "The term 'white paper' is ambiguous. It could refer to a blank sheet of white paper (which does not contain arguments), or it could refer to an academic or governmental 'white paper' document (which contains arguments). The action 'was submitted for review' could apply to either (a blank document to be reviewed for format, or a report for content), making it inconclusive."
+            }
+        ],
+        "conclusive": [
+            {
+                "query": "Is the statement 'A white paper (academic document) contains arguments' true or false or inconclusive?",
+                "mcq": "For the statement: A white paper (academic document) contains arguments, select the Correct Ans from following choices: 1. True, 2. False, 3. Inconclusive.",
+                "Reasoning": "The statement explicitly specifies 'white paper (academic document)', which refers to a report that definitively contains arguments."
+            }
+        ]
+    },
+    {
+        "key": "Bank",
+        "KB": "Bank is a financial institution. Bank is the land alongside a river or lake. Banks manage money. Banks contain water bodies. Money management is not water bodies. Water bodies are not money management. Banks can manage money. There is a green bank. Green bank was overgrown with moss.",
+        "inconclusive": [
+            {
+                "query": "Is the statement 'Green bank manages money' true or false or inconclusive?",
+                "mcq": "For the statement: Green bank manages money, select the Correct Ans from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if green bank refers to a financial institution and Inconclusive i.e. undecidable if green bank refers to a river bank.",
+                "Reasoning": "The term 'green bank' is ambiguous. It could refer to a financial institution with environmentally friendly policies, which manages money. However, it could also refer to a river bank covered in green vegetation, which does not manage money. The action 'was overgrown with moss' points strongly towards the river bank, but the query asks about managing money, creating an inconclusive situation due to the polysemy."
+            }
+        ],
+        "conclusive": [
+            {
+                "query": "Is the statement 'A green bank (financial institution) manages money' true or false or inconclusive?",
+                "mcq": "For the statement: A green bank (financial institution) manages money, select the Correct Ans from following choices: 1. True, 2. False, 3. Inconclusive.",
+                "Reasoning": "The statement explicitly specifies 'green bank (financial institution)', which refers to a financial entity that manages money."
+            }
+        ]
+    },
+    {
+        "key": "Crane",
+        "KB": "Crane is a large bird with long legs and neck. Crane is a machine used for lifting and moving heavy objects. Cranes have wings. Cranes have a boom. Wings are not booms. Booms are not wings. Cranes can fly. There is a blue crane. Blue crane lifted its head high.",
+        "inconclusive": [
+            {
+                "query": "Is the statement 'Blue crane has wings' true or false or inconclusive?",
+                "mcq": "For the statement: Blue crane has wings, select the Correct Ans from following choices: 1. True, 2. False, 3. Inconclusive, 4. True if blue crane refers to the bird and Inconclusive i.e. undecidable if blue crane refers to the lifting machine.",
+                "Reasoning": "The term 'blue crane' is ambiguous. It could refer to a blue-colored bird (which has wings), or it could refer to a blue-colored lifting machine (which does not have wings). The action 'lifted its head high' could apply metaphorically to the machine's boom or literally to the bird, making it inconclusive."
+            }
+        ],
+        "conclusive": [
+            {
+                "query": "Is the statement 'A blue crane (the bird) has wings' true or false or inconclusive?",
+                "mcq": "For the statement: A blue crane (the bird) has wings, select the Correct Ans from following choices: 1. True, 2. False, 3. Inconclusive.",
+                "Reasoning": "The statement explicitly specifies 'blue crane (the bird)', which refers to the avian species and definitively has wings."
+            }
+        ]
+    }
+]
