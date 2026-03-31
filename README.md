@@ -1,4 +1,4 @@
-# Logically Inconclusive KBs
+# A Proof-of-Concept Method for Logical Inconclusiveness-based Abstention
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
@@ -44,7 +44,6 @@ the author at sushma.ananda13@gmail.com.
 15. Generate other polysemy noun keywords. And repeat steps 1 to 10 for each new polysemy noun.
 
 16. Place all generated results in a json array format.
-"""
 
 ### Update API keys
 
@@ -64,3 +63,6 @@ OR
 uv sync
 uv run generate_data.py
 ```
+
+
+<!-- <img src="img/bat-wk-wumpus-2.png"  width="500px" height="400px" ></img> -->
