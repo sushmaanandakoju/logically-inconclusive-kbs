@@ -1,0 +1,10 @@
+[project]
+name = "logically-inconclusive-kbs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.79.0",
+    "google-generativeai>=0.8.6",
+]
