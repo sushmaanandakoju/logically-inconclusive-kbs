@@ -1,0 +1,114 @@
+[
+    {
+        "key": "bat",
+        "kb": "Bat is a mammal. Bat is used in baseball. Bats have wings. Bats have a barrel. Wings are not barrels. Barrels are not wings. Bats can fly. There is a brown bat. Brown bat flew.",
+        "neutral_query": {
+            "query": "Is 'Brown bat is a mammal' neutral or not neutral?",
+            "mcq": "For the statement: Brown bat is a mammal, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if brown bat could refer to either the mammal or baseball equipment, and Not neutral if the context definitively identifies which meaning is intended.",
+            "reasoning": "The statement is neutral because 'brown bat' could refer to either a brown-colored mammal that flies, or a brown-colored baseball bat that was thrown. The fact that 'brown bat flew' doesn't definitively distinguish between the two meanings since a baseball bat can also 'fly' through the air when thrown."
+        },
+        "not_neutral": {
+            "query": "Is 'Brown bat has wings' neutral or not neutral?",
+            "mcq": "For the statement: Brown bat has wings, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if the referent is ambiguous, and Not neutral if wings definitively identifies the mammal.",
+            "reasoning": "The statement is not neutral. If the brown bat has wings, it must be the mammal, since barrels are not wings and baseball bats have barrels, not wings. Therefore, the statement is conclusively True and not neutral."
+        }
+    },
+    {
+        "key": "head",
+        "kb": "Head is a body part. Head is the leader of organization. Heads contain a brain. Heads have authority. Brains are not authority. Authority is not a brain. Heads can think. There is a white head. White head made decisions.",
+        "neutral_query": {
+            "query": "Is 'White head is a body part' neutral or not neutral?",
+            "mcq": "For the statement: White head is a body part, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if white head could refer to either the anatomical body part or an organizational leader, and Not neutral if the context definitively identifies which meaning is intended.",
+            "reasoning": "The statement is neutral because 'white head' could refer to either a body part (perhaps with white hair), or the leader of an organization who happens to be called 'white head'. The fact that 'white head made decisions' doesn't definitively distinguish between the two meanings since both a person's head (brain) and a leader make decisions."
+        },
+        "not_neutral": {
+            "query": "Is 'White head contains a brain' neutral or not neutral?",
+            "mcq": "For the statement: White head contains a brain, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if the referent is ambiguous, and Not neutral if containing a brain definitively identifies the body part.",
+            "reasoning": "The statement is not neutral. If the white head contains a brain, it must be the anatomical body part, since authority is not a brain and organizational leaders as abstract roles don't literally contain brains. Therefore, the statement is conclusively True for the anatomical meaning and not neutral."
+        }
+    },
+    {
+        "key": "nail",
+        "kb": "Nail is part of a finger. Nail is used in construction. Nails contain keratin. Nails have a pointed tip. Keratin is not a pointed tip. Pointed tips are not keratin. Nails can grow. There is a pink nail. Pink nail did not fasten the object.",
+        "neutral_query": {
+            "query": "Is 'Pink nail is part of a finger' neutral or not neutral?",
+            "mcq": "For the statement: Pink nail is part of a finger, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if pink nail could refer to either the body part or construction material, and Not neutral if the context definitively identifies which meaning is intended.",
+            "reasoning": "The statement is neutral because 'pink nail' could refer to either a fingernail (which is naturally pinkish), or a construction nail painted pink. The fact that 'pink nail did not fasten the object' doesn't definitively distinguish between the two meanings since a fingernail also doesn't typically fasten objects, and a construction nail might fail to fasten something."
+        },
+        "not_neutral": {
+            "query": "Is 'Pink nail contains keratin' neutral or not neutral?",
+            "mcq": "For the statement: Pink nail contains keratin, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if the referent is ambiguous, and Not neutral if containing keratin definitively identifies the fingernail.",
+            "reasoning": "The statement is not neutral. If the pink nail contains keratin, it must be the fingernail, since pointed tips are not keratin and construction nails are made of metal with pointed tips, not keratin. Therefore, the statement is conclusively True for the fingernail meaning and not neutral."
+        }
+    },
+    {
+        "key": "paper",
+        "kb": "Paper is a writing material. Paper is an academic document. Papers contain cellulose fibers. Papers have research findings. Cellulose fibers are not research findings. Research findings are not cellulose fibers. Papers can be published. There is a yellow paper. Yellow paper was reviewed.",
+        "neutral_query": {
+            "query": "Is 'Yellow paper is a writing material' neutral or not neutral?",
+            "mcq": "For the statement: Yellow paper is a writing material, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if yellow paper could refer to either the physical material or an academic document, and Not neutral if the context definitively identifies which meaning is intended.",
+            "reasoning": "The statement is neutral because 'yellow paper' could refer to either yellow-colored writing material (physical paper), or an academic document that happens to be printed on yellow paper. The fact that 'yellow paper was reviewed' doesn't definitively distinguish between the two meanings since physical paper can be reviewed for quality and academic papers are reviewed for content."
+        },
+        "not_neutral": {
+            "query": "Is 'Yellow paper contains cellulose fibers' neutral or not neutral?",
+            "mcq": "For the statement: Yellow paper contains cellulose fibers, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if the referent is ambiguous, and Not neutral if containing cellulose fibers definitively identifies the writing material.",
+            "reasoning": "The statement is not neutral. If the yellow paper contains cellulose fibers, it must be the physical writing material, since research findings are not cellulose fibers and academic documents as abstract intellectual content don't contain cellulose. Therefore, the statement is conclusively True for the physical material meaning and not neutral."
+        }
+    },
+    {
+        "key": "bank",
+        "kb": "Bank is a financial institution. Bank is the edge of a river. Banks have accounts. Banks have soil deposits. Accounts are not soil deposits. Soil deposits are not accounts. Banks can hold money. There is a green bank. Green bank eroded.",
+        "neutral_query": {
+            "query": "Is 'Green bank is a financial institution' neutral or not neutral?",
+            "mcq": "For the statement: Green bank is a financial institution, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if green bank could refer to either an eco-friendly financial institution or a grass-covered riverbank, and Not neutral if the context definitively identifies which meaning is intended.",
+            "reasoning": "The statement is neutral because 'green bank' could refer to either an environmentally-focused financial institution (green banking), or a riverbank covered with green vegetation. The fact that 'green bank eroded' doesn't definitively distinguish between the two meanings since financial institutions can erode in value/reputation and riverbanks physically erode."
+        },
+        "not_neutral": {
+            "query": "Is 'Green bank has accounts' neutral or not neutral?",
+            "mcq": "For the statement: Green bank has accounts, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if the referent is ambiguous, and Not neutral if having accounts definitively identifies the financial institution.",
+            "reasoning": "The statement is not neutral. If the green bank has accounts, it must be the financial institution, since soil deposits are not accounts and riverbanks don't have financial accounts. Therefore, the statement is conclusively True for the financial institution meaning and not neutral."
+        }
+    },
+    {
+        "key": "mouse",
+        "kb": "Mouse is a small rodent. Mouse is a computer device. Mice have whiskers. Mice have buttons. Whiskers are not buttons. Buttons are not whiskers. Mice can click. There is a black mouse. Black mouse moved quickly.",
+        "neutral_query": {
+            "query": "Is 'Black mouse is a small rodent' neutral or not neutral?",
+            "mcq": "For the statement: Black mouse is a small rodent, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if black mouse could refer to either the animal or the computer device, and Not neutral if the context definitively identifies which meaning is intended.",
+            "reasoning": "The statement is neutral because 'black mouse' could refer to either a black-colored rodent, or a black-colored computer mouse. The fact that 'black mouse moved quickly' doesn't definitively distinguish between the two meanings since both rodents scurry quickly and computer mice move quickly when used."
+        },
+        "not_neutral": {
+            "query": "Is 'Black mouse has whiskers' neutral or not neutral?",
+            "mcq": "For the statement: Black mouse has whiskers, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if the referent is ambiguous, and Not neutral if having whiskers definitively identifies the rodent.",
+            "reasoning": "The statement is not neutral. If the black mouse has whiskers, it must be the rodent, since buttons are not whiskers and computer mice have buttons, not whiskers. Therefore, the statement is conclusively True for the rodent meaning and not neutral."
+        }
+    },
+    {
+        "key": "pitcher",
+        "kb": "Pitcher is a baseball player. Pitcher is a container for liquids. Pitchers have throwing arms. Pitchers have handles. Throwing arms are not handles. Handles are not throwing arms. Pitchers can throw. There is a blue pitcher. Blue pitcher was on the mound.",
+        "neutral_query": {
+            "query": "Is 'Blue pitcher is a baseball player' neutral or not neutral?",
+            "mcq": "For the statement: Blue pitcher is a baseball player, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if blue pitcher could refer to either the athlete or a decorative container, and Not neutral if the context definitively identifies which meaning is intended.",
+            "reasoning": "The statement is neutral because 'blue pitcher' could refer to either a baseball player wearing blue, or a blue-colored liquid container. The fact that 'blue pitcher was on the mound' doesn't definitively distinguish between the two meanings since baseball pitchers stand on the pitcher's mound and a decorative pitcher could be placed on a mound or elevated surface."
+        },
+        "not_neutral": {
+            "query": "Is 'Blue pitcher has a throwing arm' neutral or not neutral?",
+            "mcq": "For the statement: Blue pitcher has a throwing arm, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if the referent is ambiguous, and Not neutral if having a throwing arm definitively identifies the baseball player.",
+            "reasoning": "The statement is not neutral. If the blue pitcher has a throwing arm, it must be the baseball player, since handles are not throwing arms and liquid containers have handles, not throwing arms. Therefore, the statement is conclusively True for the baseball player meaning and not neutral."
+        }
+    },
+    {
+        "key": "wave",
+        "kb": "Wave is a water movement. Wave is a hand gesture. Waves contain water molecules. Waves have friendly intent. Water molecules are not friendly intent. Friendly intent is not water molecules. Waves can crash. There is a red wave. Red wave approached.",
+        "neutral_query": {
+            "query": "Is 'Red wave is a water movement' neutral or not neutral?",
+            "mcq": "For the statement: Red wave is a water movement, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if red wave could refer to either an ocean phenomenon or a hand gesture, and Not neutral if the context definitively identifies which meaning is intended.",
+            "reasoning": "The statement is neutral because 'red wave' could refer to either a red-colored water movement (like red tide), or a metaphorical hand gesture (political wave), or someone waving while wearing red. The fact that 'red wave approached' doesn't definitively distinguish between the two meanings since both ocean waves approach the shore and people making gestures can approach others."
+        },
+        "not_neutral": {
+            "query": "Is 'Red wave contains water molecules' neutral or not neutral?",
+            "mcq": "For the statement: Red wave contains water molecules, select the Correct Answer from following choices: 1. Neutral, 2. Not neutral, 3. Neutral if the referent is ambiguous, and Not neutral if containing water molecules definitively identifies the water movement.",
+            "reasoning": "The statement is not neutral. If the red wave contains water molecules, it must be the water movement, since friendly intent is not water molecules and hand gestures have friendly intent, not water molecules. Therefore, the statement is conclusively True for the water movement meaning and not neutral."
+        }
+    }
+]

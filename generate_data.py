@@ -70,6 +70,30 @@ def generate_data():
         json.dump(json_list, output_file, indent=4)
 
     assert os.path.exists(file_path), "File does not exist!"
+    
+    json_list.append("\n For each KB in above json list, combine KB, rename json key inconclusive as neutral query and conclusive as 'not neutral' and modify the query question as neutral or not neutral?  and modify mcq as 1. Neutral 2. Not neutral. 3. Neutral if this and not neutral if that and generate new json list.")
+    PROMPT2 = json.dumps(json_list)
+
+    response = client.models.generate_content(
+        model = MODEL_ID,
+        contents=PROMPT2,
+        config = genai.types.GenerateContentConfig(temperature=0.7)
+    )
+    result = response.text
+
+    #print(result)
+
+    results = result.replace("```json","").replace('\\"',"'").replace('\\"',"'").replace("```","")
+
+    filename = "gemini_generated_kbs_nli.jsonl"
+    json_list = json.loads(results)
+    file_path = os.path.join('/content/', filename)
+
+    with open(file_path, "w", encoding="utf-8") as output_file:
+        json.dump(json_list, output_file, indent=4)
+
+    assert os.path.exists(file_path), "File does not exist!"
+
 
     """## Claude KB Generation for Conclusive and Inconclusive"""
 
@@ -95,8 +119,6 @@ def generate_data():
 
     result = message.content[0].text.replace("```json","").replace("```","")
 
-    result
-
     json_list = json.loads(result)
 
     filename = "claude_generated_kbs.jsonl"
@@ -113,6 +135,33 @@ def generate_data():
 
     assert os.path.exists(file_path), "File does not exist!"
 
+    json_list.append("\n For each KB in above json list, combine KB, rename json key inconclusive as neutral query and conclusive as 'not neutral' and modify the query question as neutral or not neutral?  and modify mcq as 1. Neutral 2. Not neutral. 3. Neutral if this and not neutral if that and generate new json list.")
+    PROMPT2 = json.dumps(json_list)
+
+    message = client.messages.create(
+        model="claude-sonnet-4-5",
+        max_tokens = 10000,
+        messages=[
+            {
+                "role": "user",
+                "content": PROMPT2,
+            }
+        ],
+    )
+   #print(message.content)
+
+    result = message.content[0].text.replace("```json","").replace("```","")
+
+    json_list = json.loads(result)
+
+    filename = "claude_generated_kbs_nli.jsonl"
+    file_path = os.path.join('/content/', filename)
+
+    with open(file_path, "w", encoding="utf-8") as output_file:
+        json.dump(json_list, output_file, indent=4)
+
+    assert os.path.exists(file_path), "File does not exist!"
+    
 def main():
     generate_data()
 
