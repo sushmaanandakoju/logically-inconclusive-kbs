@@ -25,7 +25,7 @@ The project utilizes a 16-step structured prompting procedure to generate "confu
 ## Licensing & Commercial Use
 **Copyright © 2025 Sushma Anand Akoju. All rights reserved.**
 
-This work is licensed for non-commercial use only. For licensing inquiries or permissions beyond the scope of this license, contact: sushma.ananda13@gmail.com. Note that inquiries related to use cases prior to April 2026 are subject to pre-existing legal restrictions.
+This work is licensed for non-commercial use only. For licensing inquiries or permissions beyond the scope of this license, contact: sushma.ananda13@gmail.com. Note that inquiries related to use cases prior to April 2026 are subject to pre-existing legal restrictions. [Refer CODE_OF_CONDUCT.MD for more details.](https://github.com/sushmaanandakoju/logically-inconclusive-kbs/blob/main/CODE_OF_CONDUCT.md)
 
 ## Methodology & Dataset Generation
 The project includes a 16-step structured prompting procedure to generate "confusion datasets" based on polysemous nouns.
