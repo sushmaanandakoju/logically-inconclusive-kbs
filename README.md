@@ -13,19 +13,20 @@ Conventional logical methods, such as standard resolution refutation (RR) and sk
 
 | Date | Milestone / Document | Key Development |
 | :--- | :--- | :--- |
-| **March 11, 2025** | Initial Proposal [1]         | Proposed measuring logical entailment in LLMs using Chain-of-Thought (CoT) prompting. |
-| **March 31, 2025** | Revised Report (2:43 AM) [3] | Formulated the "Inconclusiveness" problem using polysemy nouns (e.g., Bat, Bark). |
-| **April 1, 2025** | Nite Report  ( 12:43AM) [4]| Documented manual conversion of FOL to Skolemized clausal forms to test "Meaning-Preservation"[cite: 1729, 1749]. |
-| **May 8, 2025** | Final Revised Proposal [5]      | Integrated motivation sections addressing decidability limits in Resolution Refutation. |
-| **May 13, 2025** | Final Project Results [2]      | Final evaluation across Claude 3.5, 3.7, and GPT-4o regarding ambiguity awareness. |
+| **March 11, 2025** | Initial Proposal [1]   (7:48 AM)      | Proposed measuring logical entailment in LLMs using Chain-of-Thought (CoT) prompting. |
+| **April 1, 2025** | Late Evening Report  (12:43 AM) [3]| Documented manual conversion of FOL to Skolemized clausal forms to test "Meaning-Preservation". |
+| **April 1, 2025** | Revised Report (2:43 AM) [2] | Formulated the "Inconclusiveness" problem using polysemy nouns (e.g., Bat, Bark). |
+| **May 8, 2025** | Final Revised Proposal [5]   (3:47 PM)   | Integrated motivation sections addressing decidability limits in Resolution Refutation. |
+| **May 13, 2025** | Final Project Results [2] ( 9:32 AM)     | Final evaluation across Claude 3.5, 3.7, and GPT-4o regarding ambiguity awareness. |
 
 ---
 ### References
-* **[1]** Akoju, S. A. "CS 830 Project Proposal." [cite_start]March 11, 2025[cite: 3].
-* **[2]** Akoju, S. A. "CS 830 Project Project report & results." [cite_start]May 13, 2025[cite: 36].
-* **[3]** Akoju, S. A. "CS 830 Project Proposal (2:43 AM)." [cite_start]Modified March 23–31, 2025[cite: 1003, 1004].
-* **[4]** Akoju, S. A. "Project Proposal (12:43 AM)." [cite_start]Modified March 23, 2025[cite: 1729, 1730].
-* **[5]** Akoju, S. A. "CS 830 Project Proposal & results." [cite_start]Modified May 8, 2025[cite: 1283, 1284].
+* **[1]** Akoju, S. A. "CS 830 Project Proposal." March 11, 2025, 7:48AM.
+* **[2]** Akoju, S. A. "CS 830 Project Proposal (2:43 AM) April 1, 2025." Modified March 23–April 1, 2025.
+* **[3]** Akoju, S. A. "Project Proposal (12:43 AM)." Modified April 1, 2025.
+* **[4]** Akoju, S. A. "CS 830 Project Proposal & results." Modified May 8, 2025, 3:47 PM.
+* **[5]** Akoju, S. A. "CS 830 Project Project report & results." May 13, 2025, 9:32 AM.
+
 
 ## Methodology & Usage
 The project utilizes a 16-step structured prompting procedure to generate "confusion datasets" based on polysemous nouns [2, 5].
