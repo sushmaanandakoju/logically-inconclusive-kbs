@@ -13,11 +13,11 @@ Conventional logical methods, such as standard resolution refutation (RR) and sk
 
 | Date | Milestone / Document | Key Development |
 | :--- | :--- | :--- |
-| **March 11, 2025** | Initial Proposal [1] | [cite_start]Proposed measuring logical entailment in LLMs using Chain-of-Thought (CoT) prompting[cite: 3, 15]. |
-| **March 31, 2025** | Revised Report (2:43 AM) [3] | [cite_start]Formulated the "Inconclusiveness" problem using polysemy nouns (e.g., Bat, Bark)[cite: 1004, 1012]. |
-| **April 1, 2025** | Nite Report (12:43 AM) [4] | [cite_start]Documented manual conversion of FOL to Skolemized clausal forms to test "Meaning-Preservation"[cite: 1729, 1749]. |
-| **May 8, 2025** | Final Revised Proposal [5] | [cite_start]Integrated motivation sections addressing decidability limits in Resolution Refutation[cite: 1284, 1296, 1302]. |
-| **May 13, 2025** | Final Project Results [2] | [cite_start]Final evaluation across Claude 3.5, 3.7, and GPT-4o regarding ambiguity awareness[cite: 36, 40, 237]. |
+| **March 11, 2025** | Initial Proposal [1]         | Proposed measuring logical entailment in LLMs using Chain-of-Thought (CoT) prompting. |
+| **March 31, 2025** | Revised Report (2:43 AM) [3] | Formulated the "Inconclusiveness" problem using polysemy nouns (e.g., Bat, Bark). |
+| **April 1, 2025** | Nite Report  ( 12:43AM) [4]| Documented manual conversion of FOL to Skolemized clausal forms to test "Meaning-Preservation"[cite: 1729, 1749]. |
+| **May 8, 2025** | Final Revised Proposal [5]      | Integrated motivation sections addressing decidability limits in Resolution Refutation. |
+| **May 13, 2025** | Final Project Results [2]      | Final evaluation across Claude 3.5, 3.7, and GPT-4o regarding ambiguity awareness. |
 
 ---
 ### References
