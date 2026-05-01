@@ -9,7 +9,8 @@ This repository introduces a methodology for evaluating **Logical Inconclusivene
 Conventional logical methods, such as standard resolution refutation (RR) and skolemization decomposition, are often not meaning-preserving [5, 6]. This work explores how LLMs can tap into world knowledge and word sense disambiguation to identify incomplete but satisfiable (SAT) logical sets where traditional RR might fail or never terminate [1, 5].
 
 ## Research Development & Authorship History
-[cite_start]This project represents the independent research of **Sushma Anand Akoju**[cite: 3, 35, 727, 1005, 1281]. The following timeline documents the evolution of this work during the Spring 2025 semester. [cite_start]The timestamps on primary research artifacts—often recorded during late-night and early-morning hours—reflect the intensive independent effort dedicated to this project[cite: 3, 40, 726, 1284, 1729].
+[cite_start]This project represents the independent research of **Sushma Anand Akoju**[cite: 3, 35, 727, 1005, 1281]. The following timeline documents the evolution of this work during the Spring 2025 semester. [cite_start]The timestamps on primary research artifacts—often recorded during late-night and early-morning hours—reflect the intensive independent effort dedicated to this project.
+A version is hosted here: <a href="https://beta.dpid.org/1076">https://beta.dpid.org/1076</a>
 
 | Date | Milestone / Document | Key Development |
 | :--- | :--- | :--- |
@@ -27,9 +28,12 @@ Conventional logical methods, such as standard resolution refutation (RR) and sk
 * **[4]** Akoju, S. A. "CS 830 Project Proposal & results." Modified May 8, 2025, 3:47 PM.
 * **[5]** Akoju, S. A. "CS 830 Project Project report & results." May 13, 2025, 9:32 AM.
 
-
 ## Methodology & Usage
 The project utilizes a 16-step structured prompting procedure to generate "confusion datasets" based on polysemous nouns [2, 5].
+
+## Complete Provenance
+
+<a href="https://sushmaanandakoju.github.io/provenance.html">https://sushmaanandakoju.github.io/provenance.html</a>
             
 ## Licensing & Commercial Use
 **Copyright © 2025 Sushma Anand Akoju. All rights reserved.**
